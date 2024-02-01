@@ -36,3 +36,19 @@ AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
+
+## Technologies Used
+[Coming Soon]
+
+## Screenshot
+[Coming Soon]
+
+## Output
+[Coming Soon]
+
+## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/yukitoshi12345/SVG-Logo-Maker/](https://github.com/yukitoshi12345/SVG-Logo-Maker)
+
+You can access the deployed application with the GitHub Pages link:
+[https://yukitoshi12345.github.io/SVG-Logo-Maker/](https://yukitoshi12345.github.io/SVG-Logo-Maker/)
