@@ -1,5 +1,5 @@
 # SVG Logo Maker
-This project aims to develop a command-line application specifically designed for freelance web developers. The application's primary function is to generate basic logos for their projects, eliminating the need for paid graphic design services. Through a series of prompts, users will be able to input their desired text, color preferences, and shape choices. Based on this input, the application will create a corresponding SVG logo file named "logo.svg". This logo will be visually represented as a 300x200 pixel image that adheres to the user's specified criteria. Ultimately, this project seeks to offer a cost-effective solution for freelance web developers to create simple, yet personalized logos for their projects.
+This project aims to develop a command-line application specifically designed for freelance web developers. The application's primary function is to generate basic logos for their projects, eliminating the need for paid graphic design services. Through a series of prompts, users will be able to input their desired text, colour preferences, and shape choices. Based on this input, the application will create a corresponding SVG logo file named "logo.svg". This logo will be visually represented as a 300x200 pixel image that adheres to the user's specified criteria. Ultimately, this project seeks to offer a cost-effective solution for freelance web developers to create simple, yet personalised logos for their projects.
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 [Coming Soon]
 
 ## Output
-[Coming Soon]
+Imagine effortlessly creating simple logos for your projects, saving the cost of hiring a graphic designer. This command-line tool empowers you to do just that. It guides you through a series of prompts, starting with up to three characters for your logo's text. Choose the text colour, then select a shape – circle, triangle, or square – and personalise its colour too. Once you've answered all the prompts, your logo springs to life as an SVG file named "logo.svg," along with a confirmation message in the command line. Open the file in your browser, and there you have it – a perfectly sized 300x200 pixel image reflecting your exact specifications. It's that simple, that powerful, that time-saving. Let your creativity take the wheel, and generate logos that perfectly complement your projects.
 
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
