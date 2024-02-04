@@ -60,8 +60,5 @@ Imagine effortlessly creating simple logos for your projects, saving the cost of
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/SVG-Logo-Maker/](https://github.com/yukitoshi12345/SVG-Logo-Maker)
 
-You can access the deployed application with the GitHub Pages link:
-[https://yukitoshi12345.github.io/SVG-Logo-Maker/](https://yukitoshi12345.github.io/SVG-Logo-Maker/)
-
 ## License
 This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/SVG-Logo-Maker/blob/main/LICENSE).
