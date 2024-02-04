@@ -1,6 +1,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue)
 
-# <h1 align = "center"> SVG Logo Maker </h1>
+<h1 align = "center"> SVG Logo Maker </h1>
 This project aims to develop a command-line application specifically designed for freelance web developers. The application's primary function is to generate basic logos for their projects, eliminating the need for paid graphic design services. Through a series of prompts, users will be able to input their desired text, colour preferences, and shape choices. Based on this input, the application will create a corresponding SVG logo file named "logo.svg". This logo will be visually represented as a 300x200 pixel image that adheres to the user's specified criteria. Ultimately, this project seeks to offer a cost-effective solution for freelance web developers to create simple, yet personalised logos for their projects.
 
 ## Table of Contents
