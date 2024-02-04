@@ -54,6 +54,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
   #### Command to install dependencies:
   `
   npm i inquirer@8.2.4
+  <br>
   npm i jest@29.7.0
   `
 
