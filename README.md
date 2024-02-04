@@ -51,10 +51,13 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
   npm install
   `
   
-  #### Command to install dependencies:
+  #### Command to install Inquirer dependencies:
   `
   npm i inquirer@8.2.4
-  <br>
+  `
+
+  #### Command to install Jest dependencies:
+  `
   npm i jest@29.7.0
   `
 
