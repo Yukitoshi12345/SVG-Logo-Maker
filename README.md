@@ -8,7 +8,9 @@ This project aims to develop a command-line application specifically designed fo
 - [User Story](#user-story)
 - [Objectives](#objectives)
 - [Technologies Used](#technologies-used)
+- [Test Instruction](#test-instruction)
 - [Screenshot](#screenshot)
+- [Video](#video)
 - [Output](#output)
 - [Installation](#installation)
 - [License](#license)
@@ -43,9 +45,17 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 - JavaScript
 - Node.js
 
-## Installation Used
-- inquirer@8.2.4
-- jest@29.7.0
+## Test Instruction
+  #### Command to install node:
+  `
+  npm install
+  `
+  
+  #### Command to install dependencies:
+  `
+  npm i inquirer@8.2.4
+  npm i jest@29.7.0
+  `
 
 ## Screenshot
 [Coming Soon]
