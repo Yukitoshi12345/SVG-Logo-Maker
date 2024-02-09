@@ -16,15 +16,14 @@ This project aims to develop a command-line application specifically designed fo
 - [License](#license)
 
 ## User Story
-
-```md
+```
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
 ```
 
 ## Acceptance Criteria
-```md
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
 THEN I can enter up to three characters
