@@ -65,6 +65,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Video
 A walk through video is [here](link).
+[gif coming soon]
 
 ## Output
 Imagine effortlessly creating simple logos for your projects, saving the cost of hiring a graphic designer. This command-line tool empowers you to do just that. It guides you through a series of prompts, starting with up to three characters for your logo's text. Choose the text colour, then select a shape – circle, triangle, or square – and personalise its colour too. Once you've answered all the prompts, your logo springs to life as an SVG file named "logo.svg," along with a confirmation message in the command line. Open the file in your browser, and there you have it – a perfectly sized 300x200 pixel image reflecting your exact specifications. It's that simple, that powerful, that time-saving. Let your creativity take the wheel, and generate logos that perfectly complement your projects.
