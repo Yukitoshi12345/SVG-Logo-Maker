@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const { Triangle, Square, Circle } = require("./lib/shapes.js");
+const { Circle, Triangle, Square } = require("./lib/shapes");
 
 function createLogo() {
   inquirer
@@ -31,7 +31,7 @@ function createLogo() {
     ])
     .then((answers) => {
       const svgString = createSvgString(answers);
-      fs.writeFile("logo.svg", svgString, (err) => {
+      fs.writeFile("generated-logo.svg", svgString, (err) => {
         if (err) {
           console.error(err);
         } else {
@@ -42,21 +42,42 @@ function createLogo() {
 }
 
 function createSvgString(answers) {
-  const shapeSvg = shapeElements[answers.shape](answers); // Pass answers as an argument
-  return `
-    <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-      <g>
-        ${shapeSvg}
-        <text x="150" y="130" text-anchor="middle" font-size="40" fill="${answers.textColor}">${answers.text}</text>
-      </g>
-    </svg>
-  `;
+  const { text, textColor, shape, shapeBackgroundColor } = answers;
+
+  let shapeObject;
+  switch (shape) {
+      case "Triangle":
+          shapeObject = new Triangle(shapeBackgroundColor);
+          break;
+      case "Square":
+          shapeObject = new Square(shapeBackgroundColor);
+          break;
+      case "Circle":
+          shapeObject = new Circle(shapeBackgroundColor);
+          break;
+      default:
+          throw new Error("Invalid shape selected");
+  }
+
+  return shapeObject.render(text, textColor, shapeBackgroundColor);
 }
 
-const shapeElements = {
-  Triangle: (answers) => `<polygon points="150, 18 244, 182 56, 182" fill="${answers.shapeBackgroundColor}"/>`,
-  Square: (answers) => `<rect x="73" y="40" width="160" height="160" fill="${answers.shapeBackgroundColor}"/>`,
-  Circle: (answers) => `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackgroundColor}"/>`,
-};
-
 createLogo();
+
+
+//   const shapeSvg = shapeElements[answers.shape](answers); // Pass answers as an argument
+//   return `
+//     <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+//       <g>
+//         ${shapeSvg}
+//         <text x="150" y="130" text-anchor="middle" font-size="40" fill="${answers.textColor}">${answers.text}</text>
+//       </g>
+//     </svg>
+//   `;
+// }
+
+// const shapeElements = {
+//   Triangle: (answers) => `<polygon points="150, 18 244, 182 56, 182" fill="${answers.shapeBackgroundColor}"/>`,
+//   Square: (answers) => `<rect x="73" y="40" width="160" height="160" fill="${answers.shapeBackgroundColor}"/>`,
+//   Circle: (answers) => `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackgroundColor}"/>`,
+// };
