@@ -43,6 +43,8 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Technologies Used
 - JavaScript
 - Node.js
+- Inquirer (version 8.2.4)
+- Jest (version 29.7.0)
 
 ## Test Instruction
   #### Command to install node:
@@ -57,7 +59,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
   #### Command to install Jest dependencies:
   `
-  npm i jest@29.7.0
+  npm i jest
   `
 
 ## Screenshot
