@@ -63,7 +63,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
   `
 
 ## Screenshot
-[Coming Soon]
+
 
 ## Video
 A walk through video is [here](link).
