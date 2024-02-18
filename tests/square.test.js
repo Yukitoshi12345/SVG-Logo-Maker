@@ -3,13 +3,13 @@ const Square = require('../lib/square')
 describe('Square Shape', () => {
     // Define a test case named "A square that is orange and has letters XYZ in the centre written in brown"
     test('A square that is orange and has letters XYZ in the centre written in brown', () => {
-            // Create a new Square object
-            const square = new Square();
+        // Create a new Square object
+        const square = new Square();
 
-            // Define the test parameters
-            const text = 'XYZ'; // Text to display inside the square
-            const textColour = 'brown'; // Colour of the text
-            const shapeColour = 'orange'; // Colour of the square
+        // Define the test parameters
+        const text = 'XYZ'; // Text to display inside the square
+        const textColour = 'brown'; // Colour of the text
+        const shapeColour = 'orange'; // Colour of the square
 
         // Generate the SVG string using the render method    
         const renderedSVG = square.render(text, textColour, shapeColour);
