@@ -3,7 +3,7 @@ const Circle = require('../lib/circle')
 
 // Define a test suite named "Circle Shape"
 describe('Circle Shape', () => {
-    // A circle that is red and has letters ABC in the centre written in purple"
+    // Define a test case named "A circle that is red and has letters ABC in the centre written in purple"
     test('A circle that is red and has letters ABC in the centre written in purple', () => {
         // Create a new Circle object    
         const circle = new Circle();
