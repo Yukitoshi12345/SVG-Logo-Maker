@@ -62,9 +62,21 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
   npm i jest
   `
 
+  #### Command to Generate Logos:
+  `
+  node index.js
+  `
+
+  #### Command to Test Framework:
+  `
+  npm test run
+  `
+
 ## Screenshot
+Generating Logo using Inquirer:
 ![](./assets/images/screenshot.png)
 
+Testing Framework using Jest:
 ![](./assets/images/testing-jest.png)
 
 ## Video
@@ -72,7 +84,28 @@ A walk through video is [here](link).
 ![](./assets/videos/screenrecord.mp4)
 
 ## Output
-Imagine effortlessly creating simple logos for your projects, saving the cost of hiring a graphic designer. This command-line tool empowers you to do just that. It guides you through a series of prompts, starting with up to three characters for your logo's text. Choose the text colour, then select a shape – circle, triangle, or square – and personalise its colour too. Once you've answered all the prompts, your logo springs to life as an SVG file named "logo.svg," along with a confirmation message in the command line. Open the file in your browser, and there you have it – a perfectly sized 300x200 pixel image reflecting your exact specifications. It's that simple, that powerful, that time-saving. Let your creativity take the wheel, and generate logos that perfectly complement your projects.
+Running the Command:
+- Open your terminal.
+- Navigate to the directory where you saved your logo generator code.
+- Run the application: "node index.js".
+
+Entering User Input:
+- Follow the prompts that appear in the terminal.
+- Enter your desired logo text (max 3 characters).
+- Select a colour for the text by entering a colour keyword (e.g. "red") or a hexadecimal code (e.g. "#ff0000").
+- Choose a shape for your logo from the presented options (circle, triangle, square).
+- Provide a colour for the chosen shape using the same format as before.
+
+Result:
+- Once you've entered all the information, the application will create a file named generated-logo.svg in the same directory.
+- The terminal will display the message "Generated Logo.svg".
+
+Verification:
+- Open the generated-logo.svg file in your web browser.
+- You should see a 300x200 pixel image depicting your logo based on your chosen text, text colour, shape, and shape colour.
+
+Customisation:
+- Feel free to experiment with different combinations of text, colours, and shapes to create unique logos for your projects.
 
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
