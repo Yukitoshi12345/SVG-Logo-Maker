@@ -17,7 +17,7 @@ function createLogo() {
       {
         type: "input",
         message: "Choose text color (Enter color keyword or hexadecimal)",
-        name: "textColor",
+        name: "textColour",
       },
       {
         type: "list",
@@ -28,7 +28,7 @@ function createLogo() {
       {
         type: "input",
         message: "Choose shapes color (Enter color keyword or hexadecimal)",
-        name: "shapeBackgroundColor",
+        name: "shapeColour",
       },
     ])
     .then((answers) => {
@@ -44,24 +44,24 @@ function createLogo() {
 }
 
 function createSvgString(answers) {
-  const { text, textColor, shape, shapeBackgroundColor } = answers;
+  const { text, textColour, shape, shapeColour } = answers;
 
   let shapeObject;
   switch (shape) {
       case "Triangle":
-          shapeObject = new Triangle(shapeBackgroundColor);
+          shapeObject = new Triangle(shapeColour);
           break;
       case "Square":
-          shapeObject = new Square(shapeBackgroundColor);
+          shapeObject = new Square(shapeColour);
           break;
       case "Circle":
-          shapeObject = new Circle(shapeBackgroundColor);
+          shapeObject = new Circle(shapeColour);
           break;
       default:
           throw new Error("Invalid shape selected");
   }
 
-  return shapeObject.render(text, textColor, shapeBackgroundColor);
+  return shapeObject.render(text, textColour, shapeColour);
 }
 
 createLogo();
