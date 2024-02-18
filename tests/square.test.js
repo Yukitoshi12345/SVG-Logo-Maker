@@ -1,5 +1,7 @@
+// Import the Square class from the ../lib/square module
 const Square = require('../lib/square')
 
+// Define a test suite named "Square Shape"
 describe('Square Shape', () => {
     // Define a test case named "A square that is orange and has letters XYZ in the centre written in brown"
     test('A square that is orange and has letters XYZ in the centre written in brown', () => {
