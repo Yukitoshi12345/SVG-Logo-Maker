@@ -52,7 +52,7 @@ function createLogo() {
           console.error(err); 
         } else {
           // Log success message
-          console.log("Generated Logo");
+          console.log("Generated Logo.svg");
         }
       });
     });
