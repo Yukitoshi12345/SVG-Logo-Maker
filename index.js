@@ -14,15 +14,13 @@ function createLogo() {
         name: "text",
         validate: (text) => text.length <= 3 || "Must enter 3 characters or less",
       },
+      
       {
         type: "input",
         message: "Choose text color (Enter color keyword or hexadecimal)",
         name: "textColour",
-        validate: (input) => {
-          const colorRegex = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$|^([a-zA-Z])$/;
-          return colorRegex.test(input) || "Please enter a valid color keyword or hexadecimal value";
-        }
       },
+
       {
         type: "list",
         message: "What shape would you like the logo to render?",
@@ -33,12 +31,9 @@ function createLogo() {
         type: "input",
         message: "Choose shapes color (Enter color keyword or hexadecimal)",
         name: "shapeColour",
-        validate: (input) => {
-          const colorRegex = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$|^([a-zA-Z])$/;
-          return colorRegex.test(input) || "Please enter a valid color keyword or hexadecimal value";
-        }
       },
     ])
+
     .then((answers) => {
       const svgString = createSvgString(answers);
       fs.writeFile("generated-logo.svg", svgString, (err) => {
