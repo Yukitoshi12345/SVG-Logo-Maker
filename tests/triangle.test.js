@@ -5,6 +5,7 @@ const Triangle = require('../lib/triangle')
 describe('Triangle Shape', () => {
     // Define a test case named "A triangle that is yellow and has letters JKL in the centre written in white"
     test('A triangle that is yellow and has letters JKL in the centre written in white', () => {
+            // Create a new Triangle object
             const triangle = new Triangle();
         
             // Define the test parameters
