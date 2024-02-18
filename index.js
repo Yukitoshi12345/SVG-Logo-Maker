@@ -65,21 +65,21 @@ function createSvgString(answers) {
 
   let shapeObject;
   switch (shape) {
-      case "Circle":
-          // Create a Circle object
-          shapeObject = new Circle(shapeColour);
-          break;
-      case "Square":
-          // Create a Square object
-          shapeObject = new Square(shapeColour);
-          break;
-      case "Triangle":
-          // Create a Triangle object
-          shapeObject = new Triangle(shapeColour);
-          break;
-      default:
-          // Handle invalid shape selection
-          throw new Error("Invalid shape selected");
+    case "Circle":
+      // Create a Circle object
+      shapeObject = new Circle(shapeColour);
+      break;
+    case "Square":
+      // Create a Square object
+      shapeObject = new Square(shapeColour);
+      break;
+    case "Triangle":
+      // Create a Triangle object
+      shapeObject = new Triangle(shapeColour);
+      break;
+    default:
+      // Handle invalid shape selection
+      throw new Error("Invalid shape selected");
   }
 
   // Render the SVG string using the shape object
