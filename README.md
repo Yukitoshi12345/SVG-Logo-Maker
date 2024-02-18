@@ -76,6 +76,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 Generating Logo using Inquirer:
 ![](./assets/images/screenshot.png)
 
+
 Testing Framework using Jest:
 ![](./assets/images/testing-jest.png)
 
