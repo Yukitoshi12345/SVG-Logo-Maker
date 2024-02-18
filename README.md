@@ -82,7 +82,7 @@ Testing Framework using Jest:
 ![](./assets/images/testing-jest.png)
 
 ## Video
-A walk through video is [here](link).
+A walk through video is [here](https://www.youtube.com/watch?v=4rrexRqA8f0).
 
 Generating Logo using Inquirer:
 
