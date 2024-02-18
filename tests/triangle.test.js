@@ -5,13 +5,13 @@ const Triangle = require('../lib/triangle')
 describe('Triangle Shape', () => {
     // Define a test case named "A triangle that is yellow and has letters JKL in the centre written in white"
     test('A triangle that is yellow and has letters JKL in the centre written in white', () => {
-            // Create a new Triangle object
-            const triangle = new Triangle();
+        // Create a new Triangle object
+        const triangle = new Triangle();
         
-            // Define the test parameters
-            const text = 'JKL'; // Text to display inside the triangle
-            const textColour = 'white'; // Colour of the text
-            const shapeColour = 'yellow'; // Colour of the triangle
+        // Define the test parameters
+        const text = 'JKL'; // Text to display inside the triangle
+        const textColour = 'white'; // Colour of the text
+        const shapeColour = 'yellow'; // Colour of the triangle
 
         // Generate the SVG string using the render method
         const renderedSVG = triangle.render(text, textColour, shapeColour);
