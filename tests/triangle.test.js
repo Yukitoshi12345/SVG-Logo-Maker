@@ -16,7 +16,7 @@ describe('Triangle Shape', () => {
         const renderedSVG = triangle.render(text, textColour, shapeColour);
 
         // Define the expected SVG string
-        const expectedSVG = `<svg width='300' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><polygon points='150,10 20,180 280,180' fill='yellow'/><text x='150' y='130' font-size='55' font-weight='bold' text-anchor='middle' fill='white'>JKL</text></svg>`;
+        const expectedSVG = `<svg width='300' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><polygon points='150,10 20,180 280,180' fill='yellow'/><text x='150' y='130' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>JKL</text></svg>`;
         // Assert that the rendered SVG matches the expected one
         expect(renderedSVG).toBe(expectedSVG);      
     });
