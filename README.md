@@ -74,15 +74,23 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Screenshot
 Generating Logo using Inquirer:
+
 ![](./assets/images/screenshot.png)
 
-
 Testing Framework using Jest:
+
 ![](./assets/images/testing-jest.png)
 
 ## Video
 A walk through video is [here](link).
-![](./assets/videos/screenrecord.mp4)
+
+Generating Logo using Inquirer:
+
+![](./assets/videos/screenrecord.gif)
+
+Testing Framework using Jest:
+
+![](./assets/videos/testing-jest.gif)
 
 ## Output
 Running the Command:
