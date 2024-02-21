@@ -12,6 +12,7 @@ This project aims to develop a command-line application specifically designed fo
 - [Video](#video)
 - [Output](#output)
 - [Installation](#installation)
+- [Central Grader Comments](#central-grader-comments)
 - [License](#license)
 
 ## User Story
@@ -46,11 +47,6 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 - Jest (version 29.7.0)
 
 ## Test Instruction
-  #### Command to install node:
-  `
-  npm install
-  `
-  
   #### Command to install Inquirer dependencies:
   `
   npm i inquirer@8.2.4
@@ -118,6 +114,19 @@ Customisation:
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/SVG-Logo-Maker/](https://github.com/yukitoshi12345/SVG-Logo-Maker)
+
+## Central Grader Comments
+Grade: 100/100
+
+Hello, Yukitoshi. Congratulations on an outstanding assignment. You’ve demonstrated JavaScript skills in a Node environment by building a CLI application that generates an SVG file from user input.
+
+Well done setting up the GitHub repository and maintaining organized file structure. The repo includes a comprehensive, high-quality README  that describes the project, displays an example, and links to a walkthrough video. The video is excellent! The presentation is clear and concise, and the application flow and result are displayed. It’s awesome to see you’ve committed code frequently with descriptive messages.
+
+Excellent work implementing a base Shape class to encapsulate common properties and extending the Circle, Square, and Triangle classes from it. Good job setting up an array of question objects for Inquirer to use. Nice use of a switch case to instantiate the selected shape. Setting up the string for the SVG file by interpolating values into a template literal is a great approach. The unit tests are well defined and all test suites pass.
+
+Great work achieving full functionality! Please don’t hesitate to reach out to instructional staff if you have any questions. Keep up the great work and happy hacking! 
+
+- RA, Centralized Grading
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/SVG-Logo-Maker/blob/main/LICENSE).
