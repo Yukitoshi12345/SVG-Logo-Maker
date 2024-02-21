@@ -47,6 +47,11 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 - Jest (version 29.7.0)
 
 ## Test Instruction
+  #### Command to install packages and any packages it depends on:
+  `
+  npm install
+  `
+
   #### Command to install Inquirer dependencies:
   `
   npm i inquirer@8.2.4
