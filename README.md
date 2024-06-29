@@ -12,7 +12,7 @@ This project aims to develop a command-line application specifically designed fo
 - [Screenshot](#screenshot)
 - [Video](#video)
 - [Output](#output)
-- [Installation](#installation)
+- [Deployed Application](#deployed-application)
 - [Central Grader Comments](#central-grader-comments)
 - [License](#license)
 
@@ -124,7 +124,7 @@ Customisation:
 
 - Feel free to experiment with different combinations of text, colours, and shapes to create unique logos for your projects.
 
-## Installation
+## Deployed Application
 
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/SVG-Logo-Maker/](https://github.com/yukitoshi12345/SVG-Logo-Maker)
